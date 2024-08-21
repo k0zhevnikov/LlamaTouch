@@ -1,6 +1,11 @@
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/f9081769-05d6-4135-a207-be3d5d255712" alt="logo" width="40%">
+</p>
+
 <div align="center">
-    <h1>LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Automation Task Evaluation</h1>
+    <h1>A Faithful and Scalable Testbed for Mobile UI Task Automation</h1>
 </div>
+
 
 <p align="center">
 <!--   <a href="https://example.com">Website</a> • -->
@@ -10,6 +15,15 @@
   <a href="https://arxiv.org/abs/2404.16054">Paper</a> •
   <a href="#citation">Citation</a>
 </p>
+
+<img src="https://github.com/user-attachments/assets/f9081769-05d6-4135-a207-be3d5d255712" width="100" height="auto" style="vertical-align:middle">
+was accepted at <a href="https://uist.acm.org/2024/">ACM UIST'24</a>.
+Our 30-second teaser video:
+
+<br>
+<br>
+
+https://github.com/user-attachments/assets/2d51c1eb-9f57-4d00-9a65-9e5f57168fa1
 
 LlamaTouch is a testbed for evaluating mobile UI automation agents in real-world mobile environments.
 It compares agent execution traces with (a sequence of) annotated essential states on UI interaction traces/datasets, rather than directly comparing two concrete action sequences.
@@ -23,10 +37,10 @@ Key features:
 
 3. Easy task set annotation and expansion with a rich set of UI state annotation primitives and helper systems.
 
-The overall system architecture and workflow of LlamaTouch:
+The workflow and programming demonstrations of LlamaTouch:
 
 <p align="center">
-    <img src="resources/overall-arch.png">
+    <img src="resources/workflow.png">
 </p>
 
 ## Dataset
@@ -79,11 +93,12 @@ With human validation results, it can also report the accuracy of the evaluation
 
 ```
 @misc{zhang2024llamatouch,
-      title={LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Automation Task Evaluation}, 
+      title={LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Task Automation}, 
       author={Li Zhang and Shihe Wang and Xianqing Jia and Zhihan Zheng and Yunhe Yan and Longxi Gao and Yuanchun Li and Mengwei Xu},
       year={2024},
       eprint={2404.16054},
       archivePrefix={arXiv},
-      primaryClass={cs.HC}
+      primaryClass={cs.HC},
+      url={https://arxiv.org/abs/2404.16054}, 
 }
 ```
